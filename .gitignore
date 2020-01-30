@@ -14,3 +14,8 @@
 /template/*.classpath
 /template/*.project
 /template/.settings
+/Factory/bin
+/Proxy/bin
+/adapter/bin
+/strategy/bin
+/template/bin
