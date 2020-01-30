@@ -1,0 +1,16 @@
+/.metadata
+/Factory/*.classpath
+/Factory/.project
+/Factory/.settings
+/Proxy/*.classpath
+/Proxy/*.project
+/Proxy/.settings
+/adapter/*.classpath
+/adapter/*.project
+/adapter/.settings
+/strategy/*.classpath
+/strategy/*.project
+/strategy/.settings
+/template/*.classpath
+/template/*.project
+/template/.settings
