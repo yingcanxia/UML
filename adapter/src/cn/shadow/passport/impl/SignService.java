@@ -1,8 +1,13 @@
-package cn.shadow.passport;
+package cn.shadow.passport.impl;
 
 import cn.shadow.entity.Member;
 import cn.shadow.msg.ResultMsg;
-
+/**
+ * 可以继承也可以使用接口来实现但是该类最好设置成抽象类
+ * 该类主要是适应那种老系统，老系统已经完成了登录注册的相关内容
+ * @author notto
+ *
+ */
 public class SignService {
 
 	public ResultMsg regist(String username, String password) {
