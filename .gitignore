@@ -19,3 +19,8 @@
 /adapter/bin
 /strategy/bin
 /template/bin
+/observe/.settings
+/observe/bin/cn/shadow/app/*.class
+/observe/bin
+/observe/*.classpath
+/observe/*.project
