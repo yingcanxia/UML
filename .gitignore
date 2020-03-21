@@ -24,3 +24,4 @@
 /observe/bin
 /observe/*.classpath
 /observe/*.project
+/packageUML/*.iml
