@@ -20,7 +20,6 @@ public class MemberDAO {
 			//这里就是RowMapper的具体实现，不需要再另加实现
 			@Override
 			public Member maprow(ResultSet rs, int rowNum) throws Exception {
-				// TODO Auto-generated method stub
 				Member member = new Member();
 				member.setUsername(rs.getString("username"));
 				member.setPassword(rs.getString("password"));

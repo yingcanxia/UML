@@ -27,7 +27,6 @@ public class App {
 			p2.findJob();
 			
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

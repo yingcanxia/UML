@@ -10,8 +10,7 @@ public class WeChatPay implements Payment {
 
 	@Override
 	public PayStatus pay(String uid, BigDecimal money) {
-		// TODO Auto-generated method stub
-		
+
 		
 		System.out.println("欢迎使用微信支付");
 		System.out.println("正在支付");

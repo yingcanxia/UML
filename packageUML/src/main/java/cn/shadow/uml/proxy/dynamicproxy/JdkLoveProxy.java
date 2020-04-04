@@ -23,7 +23,6 @@ public class JdkLoveProxy implements InvocationHandler {
 
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-		// TODO Auto-generated method stub
 		System.out.println("媒婆A已经拿到需求");
 		System.out.println("开始无得");
 		method.invoke(this.target, args);

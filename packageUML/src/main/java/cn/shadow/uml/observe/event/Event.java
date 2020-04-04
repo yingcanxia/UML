@@ -59,7 +59,6 @@ public class Event {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "Event{\n" + "source=" + source + ",\n" + "target=" + target + ",\n" + "callback=" + callback + ",\n"
 				+ "trigger=" + trigger + "}";
 	}

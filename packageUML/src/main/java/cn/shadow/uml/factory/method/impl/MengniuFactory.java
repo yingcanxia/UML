@@ -9,7 +9,6 @@ public class MengniuFactory implements MethodFactory {
 
 	@Override
 	public Milk getmilk() {
-		// TODO Auto-generated method stub
 		return new Mengniu();
 	}
 

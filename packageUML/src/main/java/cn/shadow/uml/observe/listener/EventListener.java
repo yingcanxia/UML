@@ -16,10 +16,8 @@ public class EventListener {
 		try {
 			this.addListener(eventType, target, target.getClass().getMethod("on"+eventType,Event.class));
 		} catch (NoSuchMethodException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (SecurityException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -33,13 +31,10 @@ public class EventListener {
 		try {
 			event.getCallback().invoke(event.getTarget(), event);
 		} catch (IllegalAccessException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IllegalArgumentException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (InvocationTargetException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

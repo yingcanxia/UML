@@ -5,7 +5,6 @@ import cn.shadow.uml.factory.entity.Milk;
 public class Telunsu implements Milk{
 	@Override
 	public String getname() {
-		// TODO Auto-generated method stub
 		return "特仑苏";
 	}
 }

@@ -44,10 +44,8 @@ public class SiginForThirdService extends SignService {
 				return adapter.logic(key, null);
 			}
 		} catch (InstantiationException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IllegalAccessException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return null;

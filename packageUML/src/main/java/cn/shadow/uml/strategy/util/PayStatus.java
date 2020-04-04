@@ -6,7 +6,6 @@ public class PayStatus {
 	private String msg;
 	
 	public PayStatus(String code,String msg) {
-		// TODO Auto-generated constructor stub
 		this.code=code;
 		this.msg=msg;
 	}
